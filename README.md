@@ -3,7 +3,7 @@
 ## Overview
 This project focuses on predicting heart disease using machine learning techniques. It includes data preprocessing, exploratory data analysis (EDA), feature engineering, and logistic regression modeling.
 
-## Dataset : https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
+## [Dataset](/heart.csv) : https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
 
 ## Dependencies
 - Python (>=3.6)
@@ -11,18 +11,20 @@ This project focuses on predicting heart disease using machine learning techniqu
 
 ## Installation
 1. Clone this repository: 
-    git clone https://github.com/S-T-R-A-N-G-E-R/Heart-Failure-Prediction.git
+    
+        git clone https://github.com/S-T-R-A-N-G-E-R/Heart-Failure-Prediction.git
 
 2. Install the required dependencies:
-    pip install -r requirements.txt
+    
+        pip install -r requirements.txt
 
 
 ## Usage
-1. Open and run the Jupyter Notebook `Heart Failure Notebook.ipynb` for detailed steps and code.
+1. Open and run the [Jupyter Notebook](/Heart%20Failure%20Notebook.ipynb) for detailed steps and code.
 
 ## Results
 - We were able to successfully impute the missing data in columns "Cholesterol" and "RestingBP"
-- Our logistic regression model achieved an accuracy of 86.3% in predicting heart disease.
+- Our [logistic regression model](/model_LR_pickle) achieved an accuracy of 86.3% in predicting heart disease.
 
 
 ## Acknowledgments
@@ -34,4 +36,4 @@ This project focuses on predicting heart disease using machine learning techniqu
 
 - LinkedIn: https://www.linkedin.com/in/swapnilroy001/
 - Email: swapnilroydata@outlook.com
-
+- Kaggle: https://www.kaggle.com/royswapnil
